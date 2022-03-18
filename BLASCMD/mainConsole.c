@@ -33,7 +33,7 @@ void mainConsole() {
 
 		while (1) {
 			//print bebug
-			printVarriable(line, I_varriable);
+			printDebug(line, I_varriable);
 
 			//logic function
 			logicFunction(line, I_varriable);
@@ -60,22 +60,22 @@ void mainConsole() {
 void getCommand(Line* line) {
 	//(line number) (function code) (input varriable 1 code) (logic function) (input varriable 2 code) (output varrialbe code) (i/o function code) (i/o varriable code) (next function code)
 	printf("LineNumber: ");
-	gets_s(line->C_lineNumber, 4);
+	gets(line->C_lineNumber);
 	printf("FunctionCode: ");
-	gets_s(line->C_functionCode, 9);
+	gets(line->C_functionCode);
 	printf("I_VarriableCode1: ");
-	gets_s(line->C_I_varriableCode1, 9);
+	gets(line->C_I_varriableCode1);
 	printf("logicFunctionCode: ");
-	gets_s(line->C_logicFunctionCode, 9);
+	gets(line->C_logicFunctionCode);
 	printf("I_VarriableCode2: ");
-	gets_s(line->C_I_varriableCode2, 9);
+	gets(line->C_I_varriableCode2);
 	printf("O_VarriableCode: ");
-	gets_s(line->C_O_varriableCode, 9);
+	gets(line->C_O_varriableCode);
 	printf("IO_FunctionCode: ");
-	gets_s(line->C_IO_functionCode, 9);
+	gets(line->C_IO_functionCode);
 	printf("IO_VarriableCode: ");
-	gets_s(line->C_IO_varriableCode, 9);
+	gets(line->C_IO_varriableCode);
 	printf("nextFunctionCode: ");
-	gets_s(line->C_nextFunctionCode, 9);
+	gets(line->C_nextFunctionCode);
 	printf("\n");
 }

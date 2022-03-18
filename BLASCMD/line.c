@@ -63,7 +63,7 @@ void convert(Line* line) {
 	line->I_nextFunctionCode = binaryToDec(line->C_nextFunctionCode);
 }
 
-void printVarriable(Line line, int I_varriable[256]) {
+void printDebug(Line line, int I_varriable[256]) {
 	//(line number) (function code) (input varriable 1 code) (logic function) (input varriable 2 code) (output varrialbe code) (i/o function code) (i/o varriable code) (next function code)
 	printf("Code: %s %s %s %s %s %s %s %s %s\n\n",
 		line.C_lineNumber,

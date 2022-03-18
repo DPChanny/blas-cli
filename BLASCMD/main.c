@@ -34,7 +34,7 @@ Programmed By DPC0516
 //varriable declare
 int I_varriable[256] = { 0, }; //saved varriables
 int I_functions[256][2] = { {0, 1}, }; //saved functions
-Line L_scripts[1000];
+Line L_scripts[1000] = {0,};
 
 //function declare
 int printMainMenu();
@@ -80,7 +80,7 @@ int printMainMenu() {
 	printf("\t4: exit\n\n");
 	printf("answer: ");
 
-	scanf_s("%d", &selection);
+	scanf("%d", &selection);
 	rewind(stdin);
 
 	return selection;

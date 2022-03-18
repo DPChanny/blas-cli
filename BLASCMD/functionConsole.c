@@ -15,7 +15,7 @@ void functionConsole() {
 	char C_functionCode[9] = {"0",};
 	int I_functionCode = 0;
 	printf("Function Code:");
-	scanf_s("%s", &C_functionCode);
+	scanf("%s", &C_functionCode);
 	rewind(stdin);
 
 	I_functionCode = binaryToDec(C_functionCode);
@@ -27,7 +27,7 @@ void functionConsole() {
 
 			while (1) {
 				//print bebug
-				printVarriable(line, I_varriable);
+				printDebug(line, I_varriable);
 
 				//logic function
 				logicFunction(line, I_varriable);

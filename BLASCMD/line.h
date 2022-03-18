@@ -26,7 +26,7 @@ typedef struct Line {
 int binaryToDec(char binary[8]);
 void initLine(Line* line);
 void convert(Line* line);
-void printVarriable(Line line, int I_varriable[256]);
+void printDebug(Line line, int I_varriable[256]);
 void saveLine(Line line, Line L_Scripts[1000]);
 
 #endif 
