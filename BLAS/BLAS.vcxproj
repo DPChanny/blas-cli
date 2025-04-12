@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{7950fe5c-9d30-4f2d-9775-7c799ed1a93c}</ProjectGuid>
-    <RootNamespace>BLASCMD</RootNamespace>
+    <RootNamespace>BLAS</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
